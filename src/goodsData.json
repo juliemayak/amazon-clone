@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1",
+    "title": "NETGEAR Nighthawk Smart Wi-Fi Router",
+    "short_title": "NETGEAR Nighthawk Smart Wi-Fi Router",
+    "price": 129.98,
+    "rating": 4.5,
+    "image": "https://m.media-amazon.com/images/I/61FA9BbugzL._AC_UY218_.jpg"
+  },
+  {
+    "id": "2",
+    "title": "JBL Pulse 4 - Portable Bluetooth Speaker with 360 degrees LED lights,IPX7 waterproof",
+    "short_title": "JBL Pulse 4",
+    "price": 249.95,
+    "rating": 4.8,
+    "image": "https://m.media-amazon.com/images/I/519qEk4v0CL._AC_SX679_.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Mid 2017 Apple MacBook Pro, 3.1GHz Intel Core i5 (13-inch, 8GB RAM, 512GB SSD) - Space Gray",
+    "short_title": "Mid 2017 Apple MacBook Pro",
+    "price": 795.01,
+    "rating": 4.1,
+    "image": "https://m.media-amazon.com/images/I/61SRQUe+LhL._AC_SX679_.jpg"
+  },
+  {
+    "id": "4",
+    "title": "The Body Shop Vitamin E Moisture Cream, Paraben-Free Facial Cream, 1.7 Oz",
+    "short_title": "The Body Shop Facial Cream",
+    "price": 21.4,
+    "rating": 4.4,
+    "image": "https://m.media-amazon.com/images/I/61pxJ0z4l2L._SX679_.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Reusable Kodak M35 35mm Film Camera Compatible with 35mm Color Negative or B/W Film",
+    "short_title": "Kodak M35 35mm Film Camera",
+    "price": 29.98,
+    "rating": 4.2,
+    "image": "https://m.media-amazon.com/images/I/51d5MEto4ML._AC_SX679_.jpg"
+  },
+  {
+    "id": "6",
+    "title": "LG 34WN80C-B UltraWide Monitor 34” 21:9 Curved WQHD (3440 x 1440) IPS Display",
+    "short_title": "LG 34WN80C-B UltraWide Monitor 34",
+    "price": 640.0,
+    "rating": 4.6,
+    "image": "https://m.media-amazon.com/images/I/81WBbFOEHwL._AC_SX679_.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Vepose Women's Cross Band Slippers",
+    "price": 19.99,
+    "rating": 4.6,
+    "image": "https://m.media-amazon.com/images/I/718JoW6PljL._AC_UY695_.jpg"
+  },
+  {
+    "id": "8",
+    "title": "LA JOLIE MUSE Damask Rose Scented Candle, 10oz",
+    "price": 26.98,
+    "rating": 4.7,
+    "image": "https://m.media-amazon.com/images/I/71zD1YcmXOL._AC_SX679_.jpg"
+  },
+  {
+    "id": "9",
+    "title": "2-Pack Flower Vase Glass, Pink Fluted Vase with Golden Metal Top (Blush Pink-Set of 2)",
+    "price": 34.99,
+    "rating": 5.0,
+    "image": "https://m.media-amazon.com/images/I/81l8sdifQsL._AC_SX679_.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Gelible Geometric Glass Flower Vase",
+    "price": 22.99,
+    "rating": 4.6,
+    "image": "https://m.media-amazon.com/images/I/61UaM2xNUHL._AC_SX679_.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Samsonite Omni 2 Hardside Expandable Luggage with Spinner Wheels, Midnight Black, 3-Piece Set (20/24/28)",
+    "price": 229.99,
+    "rating": 4.6,
+    "image": "https://m.media-amazon.com/images/I/91v-SHKhO3L._AC_SX679_.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Daniel Wellington Petite Melrose Watch, Rose Gold Mesh Bracelet",
+    "price": 109.85,
+    "rating": 4.8,
+    "image": "https://m.media-amazon.com/images/I/81797mFTaCL._AC_UX679_.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Fujifilm Instax Mini 11 2021 Bundle - Purple",
+    "price": 69.95,
+    "rating": 4.8,
+    "image": "https://m.media-amazon.com/images/I/5184TUxx7-L._AC_SL1000_.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Zinus Suzanne Metal and Wood Platform Bed with Headboard and Footboard, Queen",
+    "price": 400.93,
+    "rating": 5.0,
+    "image": "https://m.media-amazon.com/images/I/81Oy2DytvlL._AC_SX679_.jpg"
+  }
+]

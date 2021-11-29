@@ -1,0 +1,25 @@
+.results {
+  background-color: #fff;
+}
+
+.results__counter {
+  padding: 8px 30px;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 8px 6px -6px #ddd;
+  background-color: #fff;
+}
+
+.results__value {
+  font-weight: 700;
+  color: #c45500;
+}
+
+.results_product {
+  border-bottom: 2px solid #ddd;
+  margin: 10px;
+}
+.results_product:hover {
+  transform: scale(1.02);
+}
