@@ -14,3 +14,20 @@
   font-weight: 500;
   text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+  .order {
+    padding: 60px 10px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .order__id {
+    top: 10px;
+    right: 0;
+    padding-left: 7px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+}

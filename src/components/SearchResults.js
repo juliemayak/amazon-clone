@@ -10,7 +10,9 @@ function SearchResults() {
   return (
     <div className="results">
       <div className="results__counter">
-        <span>{`${searchResults.length} results for`}</span>
+        <span>{`${searchResults.length} ${
+          searchResults.length === 1 ? 'result' : 'results'
+        } for`}</span>
         <span className="results__value"> {`"${searchValue}"`}</span>
       </div>
       <div className="results__products">

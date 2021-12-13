@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
 import useDebounce from '../customHooks/useDebounce';
 import useOutsideClick from '../customHooks/useClickOutside';
 import { useStateValue } from '../StateProvider';
 import './SearchBar.css';
 
-function SearchBar({ data }) {
+function SearchBar({ data, className }) {
   let { id } = useParams();
 
   //using global state
@@ -65,7 +65,7 @@ function SearchBar({ data }) {
   });
 
   return (
-    <div className="search">
+    <div className={`search ${className}`}>
       <input
         value={searchValue}
         onChange={(e) => setInputValue(e.target.value)}
@@ -73,7 +73,7 @@ function SearchBar({ data }) {
         className="search__input"
       />
       <Link to={`/search-results`}>
-        <SearchIcon className="search__searchIcon" />
+        <SearchIcon className="search__searchIcon" onClick={() => setResultsVisible(false)} />
       </Link>
       {resultsVisible && searchValue?.trim() && (
         <div ref={ref} className="search__results">

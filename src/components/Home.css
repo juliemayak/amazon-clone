@@ -14,3 +14,9 @@
 .home__rowProduct {
   width: 45%;
 }
+
+@media screen and (max-width: 480px) {
+  .home__rowProduct {
+    width: 100%;
+  }
+}

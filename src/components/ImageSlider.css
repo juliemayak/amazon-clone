@@ -42,3 +42,15 @@
   opacity: 1;
   transition-duration: 1s;
 }
+
+@media screen and (max-width: 745px) {
+  .slide {
+    height: 150px;
+  }
+  .slider__beforeArrow {
+    top: 40%;
+  }
+  .slider__nextArrow {
+    top: 40%;
+  }
+}

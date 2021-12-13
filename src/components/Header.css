@@ -4,6 +4,7 @@
   align-items: center;
   top: 0;
   z-index: 100;
+  width: 100%;
 }
 .header__logo {
   width: 100px;
@@ -62,6 +63,12 @@
   display: flex;
   justify-content: space-evenly;
 }
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 .header__link {
   color: white;
   text-decoration: none;
@@ -83,4 +90,29 @@
   background-color: #cd9042;
   padding: 2px;
   height: 22px !important;
+}
+
+.header__searchBar--2 {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .header__searchBar--1 {
+    display: none;
+  }
+  .header__searchBar--2 {
+    display: inline-flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .header__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 }

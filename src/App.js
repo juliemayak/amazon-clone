@@ -21,7 +21,7 @@ const promise = loadStripe(
 );
 
 function App() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
   //useEffect
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
@@ -44,8 +44,8 @@ function App() {
     };
   }, []);
   return (
-    <Router>
-      <div className="app">
+    <div className="app">
+      <Router>
         <Routes>
           <Route
             path="/search-results"
@@ -113,8 +113,8 @@ function App() {
             }
           />
         </Routes>
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
