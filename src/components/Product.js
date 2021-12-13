@@ -4,7 +4,7 @@ import { Rating } from '@mui/material';
 import { useStateValue } from '../StateProvider';
 
 function Product({ id, title, price, rating, image, className }) {
-  const [{ basket }, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   const addToBasket = () => {
     dispatch({

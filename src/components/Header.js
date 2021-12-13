@@ -9,7 +9,7 @@ import goodsData from '../goodsData.json';
 import './Header.css';
 
 function Header() {
-  const [{ basket, user, searchValue }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
 
   const handleSignInOut = () => {
     if (user) {

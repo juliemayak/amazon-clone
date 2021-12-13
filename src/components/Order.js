@@ -1,12 +1,12 @@
 import React from 'react';
 import './Order.css';
 import moment from 'moment';
-import { useStateValue } from '../StateProvider';
+// import { useStateValue } from '../StateProvider';
 import CurrencyFormat from 'react-currency-format';
 import CheckoutProduct from './CheckoutProduct';
 
 function Order({ order }) {
-  const [{ basket }, dispatch] = useStateValue();
+  // const [{ basket }, dispatch] = useStateValue();
 
   return (
     <div className="order">

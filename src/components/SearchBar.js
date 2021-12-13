@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
 import useDebounce from '../customHooks/useDebounce';
 import useOutsideClick from '../customHooks/useClickOutside';

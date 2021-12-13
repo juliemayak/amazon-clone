@@ -21,7 +21,7 @@ const promise = loadStripe(
 );
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
   //useEffect
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
@@ -42,7 +42,8 @@ function App() {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [dispatch]);
+
   return (
     <div className="app">
       <Router>

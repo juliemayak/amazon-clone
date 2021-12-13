@@ -5,7 +5,7 @@ import { useStateValue } from '../StateProvider';
 import './SearchResults.css';
 
 function SearchResults() {
-  const [{ searchResults, searchValue }, dispatch] = useStateValue();
+  const [{ searchResults, searchValue }] = useStateValue();
 
   return (
     <div className="results">
