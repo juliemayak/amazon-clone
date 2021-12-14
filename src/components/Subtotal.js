@@ -9,7 +9,7 @@ import './Subtotal.css';
 function Subtotal() {
   const navigate = useNavigate();
 
-  const [{ basket }] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
 
   return (
     <div className="subtotal">
