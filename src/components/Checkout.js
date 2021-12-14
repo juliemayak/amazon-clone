@@ -1,11 +1,14 @@
 import React from 'react';
 import { useStateValue } from '../StateProvider';
+import { useNavigate } from 'react-router-dom';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 import './Checkout.css';
 
 function Checkout() {
-  const [{ basket }] = useStateValue();
+  const [{ user, basket }] = useStateValue();
+  const navigate = useNavigate();
+
   return (
     <div className="checkout">
       <div className="checkout__left">
@@ -38,10 +41,22 @@ function Checkout() {
           </div>
         )}
       </div>
-      {basket.length > 0 && (
+      {user && basket.length ? (
         <div className="checkout__right">
           <Subtotal />
         </div>
+      ) : (
+        !user && (
+          <div className="checkout__right">
+            <div className="checkout__rightLogIn">
+              <p>
+                You are not Logged In. <br />
+                Sign In or Create New Account to make an order.
+              </p>
+              <button onClick={(e) => navigate('/login')}>Proceed to Log In</button>
+            </div>
+          </div>
+        )
       )}
     </div>
   );

@@ -32,6 +32,19 @@
 
 .payment__address {
   margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.payment__address > p,
+h4 {
+  padding-bottom: 7px;
+}
+.payment__address > input {
+  width: 50%;
+  height: 22px;
+  padding: 15px 10px;
+  outline: none;
+  font-size: 17px;
 }
 
 .payment__details {

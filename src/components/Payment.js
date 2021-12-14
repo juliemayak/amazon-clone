@@ -4,7 +4,12 @@ import { Link, useNavigate } from 'react-router-dom';
 import CurrencyFormat from 'react-currency-format';
 import { getBasketTotal } from '../reducer.js';
 import { useStateValue } from '../StateProvider';
-import { CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
+import {
+  CardElement,
+  useStripe,
+  useElements,
+  ShippingAddressElement
+} from '@stripe/react-stripe-js';
 import CheckoutProduct from './CheckoutProduct';
 import { db } from '../firebase';
 import './Payment.css';
@@ -67,6 +72,8 @@ function Payment() {
     setError(e.error && e.error.message);
   };
 
+  const [address, setAddress] = useState('');
+
   return (
     <div className="payment">
       <div className="payment__container">
@@ -80,14 +87,19 @@ function Payment() {
           </div>
           <div className="payment__address">
             <p>{user?.email}</p>
-            <p>125493 Moscow</p>
-            <p>Moscow</p>
+            <h4>Enter Shipping Address</h4>
+            <input
+              type="text"
+              id="address"
+              value={address}
+              onChange={(e) => setAddress(e.target.value)}
+            />
           </div>
         </div>
 
         <div className="payment__section">
           <div className="payment__title">
-            <h3>Review items and Delivery</h3>
+            <h3>Review items</h3>
           </div>
           <div className="payment__items">
             {basket.map((item) => (
