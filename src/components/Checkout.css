@@ -36,6 +36,7 @@
 
 .checkout__rightLogIn > button {
   background: #ffd813;
+  color: black;
   border: 1px solid #e9c61a;
   cursor: pointer;
   transition: all 0.5s ease-out;

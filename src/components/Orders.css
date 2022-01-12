@@ -9,4 +9,7 @@
   .orders {
     padding: 15px 15px;
   }
+  .orders > h1 {
+    padding: 10px;
+  }
 }

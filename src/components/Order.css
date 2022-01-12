@@ -18,7 +18,7 @@
 @media screen and (max-width: 600px) {
   .order {
     padding: 60px 10px;
-    height: 60vh;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -53,4 +53,7 @@
   .slider__nextArrow {
     top: 40%;
   }
+  .slide {
+    height: 80px;
+  }
 }
